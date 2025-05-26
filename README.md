@@ -1,6 +1,6 @@
 # Robotic Car (Autonomos Obstacle-Avoiding Robot Car (with RB5 + mBot) project
 
-<img src="mbot1.png" width="600" height="400">
+<img src="mbot1.png" width="500" height="500">
 
   
 ## About The Project
@@ -27,7 +27,7 @@ _________________________________________________________
 
 This project presents the design and development of an autonomous robotic car capable of detecting and avoiding obstacles in real time using camera-based vision. The system integrates the Qualcomm RB5 development board with the mBot Mega platform and runs on Ubuntu 22.04, using Robot Operating System (ROS 2 - Foxy) framework. Our Minimum Viable Product (MVP) was defined as navigating a 1.5 m × 1.5 m test space, detecting obstacles within 30 cm, and responding within 500 milliseconds. The robot uses its onboard camera and AprilTag detection to identify obstacles and adjust its movement accordingly. By eliminating infrared and ultrasonic sensors and relying entirely on visual input and an IMU sensor, the robot achieves closed-loop behavior with real-time responsiveness. Built with accessible components and modular ROS 2 software, the system provides a strong foundation for future enhancements such as full SLAM integration, dynamic path planning with Nav2, and real-time mapping using ORB-SLAM3.
 
-<img src="mbot2.PNG" width="800" height="600">
+<img src="mbot2.PNG" width="800" height="500">
 ________________________________________________________
 
 ### Introduction
