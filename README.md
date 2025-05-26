@@ -1,6 +1,6 @@
 # Robotic Car (Autonomos Obstacle-Avoiding Robot Car (with RB5 + mBot) project
 
-![Robotic Car](mbot1.png) <img src="mbot1.png" width="200" height="200">
+![Robotic Car] <img src="mbot1.png" width="400" height="400">
 
   
 ## About The Project
