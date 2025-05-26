@@ -20,6 +20,8 @@ I have always dreamed of building a robot, and this project gives me the great o
 
 I am genuinely committed to this project because building a robot has been a personal goal of mine since transferring here. I also want to take what I’ve already learned from machine learning and web development to parallel computing and apply those skills to embedded hardware using the RB5 and mBot. I am excited to try adding something creative and original to the robotic car as well.
 
+_________________________________________________________
+
 ### Abstract
 
 This project presents the design and development of an autonomous robotic car capable of detecting and avoiding obstacles in real time using camera-based vision. The system integrates the Qualcomm RB5 development board with the mBot Mega platform and runs on Ubuntu 22.04, using Robot Operating System (ROS 2 - Foxy) framework. Our Minimum Viable Product (MVP) was defined as navigating a 1.5 m × 1.5 m test space, detecting obstacles within 30 cm, and responding within 500 milliseconds. The robot uses its onboard camera and AprilTag detection to identify obstacles and adjust its movement accordingly. By eliminating infrared and ultrasonic sensors and relying entirely on visual input and an IMU sensor, the robot achieves closed-loop behavior with real-time responsiveness. Built with accessible components and modular ROS 2 software, the system provides a strong foundation for future enhancements such as full SLAM integration, dynamic path planning with Nav2, and real-time mapping using ORB-SLAM3.
