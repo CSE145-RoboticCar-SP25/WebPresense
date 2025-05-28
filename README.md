@@ -38,7 +38,6 @@ Autonomous robotic systems play a critical role in modern applications, from del
 Our robot is built on the mBot Mega platform for motor control and uses the Qualcomm RB5 development board for onboard processing and camera-based sensing. The system runs Ubuntu 22.04 and uses Robot Operating System 2 (ROS 2) as its main software framework. The robot detects its environment using the RB5’s onboard camera and identifies obstacles through AprilTag detection. It reacts by adjusting its motion in real time when a tag (representing an obstacle) is detected within a 30 cm range, responding in under 500 milliseconds.
 This project served as an educational opportunity for our team to apply skills in robotics, computer vision, embedded systems, and collaborative software development. We structured the work into clear milestones: beginning with open-loop motion control, then establishing camera integration and AprilTag detection, and finally preparing for path planning using SLAM-based odometry and the Nav2 framework.
 
-<img src="mbot3.mov" width="800" height="500">
 
 __________________________________________________________
 
