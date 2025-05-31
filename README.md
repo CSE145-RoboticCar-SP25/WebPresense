@@ -25,11 +25,14 @@ source /opt/ros/foxy/setup.bash
 colcon build --symlink-install
 source install/setup.bash
 
-# Launch the camera and vision system
+# Terminal 1: Launch camera and vision system
 ros2 launch rb5_ros2_vision rb_camera_main_ocv_launch.py
 
-# In a new terminal, launch the web interface
+# Terminal 2: Launch web interface
 ros2 run rb5_ros2_control combined_flask_server.py
+
+# Terminal 3: Launch robot control node
+ros2 run rb5_keyjoy_control_node.py
 
 # Access web interface at http://<RB5_IP>:8004
 ```
@@ -133,37 +136,31 @@ pip3 install flask opencv-python numpy apriltag
 
 ### Installation Steps
 
-1. **Clone Repository**
+1. **Clone the Main Code Repository**
    ```bash
    git clone https://github.com/SamvathnaEm/CSE145_RoboticCar.git
+   cd CSE145_RoboticCar
    ```
    
-   > **Note**: This project builds upon the [UCSD CSE 276A RB5 ROS2 starter code](https://github.com/AutonomousVehicleLaboratory/rb5_ros2/tree/fa24_cse276a) with additional web interface and autonomous navigation features.
+   > **Note**: This project builds upon the [UCSD CSE 276A RB5 ROS2 starter code](https://github.com/AutonomousVehicleLaboratory/rb5_ros2/tree/fa24_cse276a) with additional web interface and autonomous navigation features developed by our team.
 
 2. **Setup ROS2 Environment**
    ```bash
    source /opt/ros/foxy/setup.bash
-   cd CSE145_RoboticCar
    colcon build --symlink-install
    source install/setup.bash
    ```
 
-3. **Configure Camera Parameters**
-   ```bash
-   # Edit camera configuration
-   nano rb5_ros2_vision/config/camera_params.yaml
-   ```
-
-4. **Launch System**
+3. **Launch System Components**
    ```bash
    # Terminal 1: Camera and Vision
    ros2 launch rb5_ros2_vision rb_camera_main_ocv_launch.py
    
-   # Terminal 2: Control Interface
+   # Terminal 2: Web Control Interface
    ros2 run rb5_ros2_control combined_flask_server.py
    
-   # Terminal 3: AprilTag Detection
-   ros2 run ros2_april_detection april_detection_node
+   # Terminal 3: Robot Control
+   ros2 run rb5_keyjoy_control_node.py
    ```
 
 ## 📁 Repository Structure
@@ -228,10 +225,16 @@ WebPresense/
 
 ### Basic Operation
 
-1. **Start the System**
+1. **Start the System Components**
    ```bash
-   # Launch all nodes
-   ros2 launch rb5_ros2_control robot_launch.py
+   # Terminal 1: Launch camera and vision
+   ros2 launch rb5_ros2_vision rb_camera_main_ocv_launch.py
+   
+   # Terminal 2: Launch web server
+   ros2 run rb5_ros2_control combined_flask_server.py
+   
+   # Terminal 3: Launch robot control
+   ros2 run rb5_keyjoy_control_node.py
    ```
 
 2. **Access Web Interface**
