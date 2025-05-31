@@ -2,7 +2,7 @@
 ### CSE 145 Spring 2025 | Fast Robotics Team
 
 <div align="center">
-  <img src="resources/mbot1.png" width="500" height="400">
+  <img src="resources/mbot1.png" width="350" height="400"  style="object-fit: cover; border-radius: 8px;">
   <p><em>Our autonomous robotic car integrating RB5 and mBot Mega platforms</em></p>
 </div>
 
@@ -52,7 +52,6 @@ ros2 run rb5_keyjoy_control_node.py
     - [Essential Components](#essential-components)
     - [Optional Components](#optional-components)
   - [💻 Software Setup](#-software-setup)
-    - [Prerequisites](#prerequisites)
     - [Installation Steps](#installation-steps)
   - [📁 Repository Structure](#-repository-structure)
   - [🎮 Usage Guide](#-usage-guide)
@@ -127,19 +126,6 @@ This project presents an autonomous robotic car capable of real-time obstacle de
 - Additional sensors (for future enhancements)
 
 ## 💻 Software Setup
-
-### Prerequisites
-```bash
-# Ubuntu 22.04 LTS with ROS2 Foxy
-sudo apt update && sudo apt upgrade -y
-
-# Install ROS2 Foxy
-sudo apt install ros-foxy-desktop python3-rosdep python3-colcon-common-extensions
-
-# Install Python dependencies
-pip3 install flask opencv-python numpy apriltag
-```
-
 ### Installation Steps
 
 1. **Clone the Main Code Repository**
