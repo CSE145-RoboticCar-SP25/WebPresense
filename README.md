@@ -39,17 +39,40 @@ ros2 run rb5_keyjoy_control_node.py
 
 ## 📋 Table of Contents
 
-- [About The Project](#about-the-project)
-- [Team Members](#team-members)
-- [System Architecture](#system-architecture)
-- [Hardware Requirements](#hardware-requirements)
-- [Software Setup](#software-setup)
-- [Repository Structure](#repository-structure)
-- [Usage Guide](#usage-guide)
-- [Web Interface](#web-interface)
-- [Documentation](#documentation)
-- [Demo Videos](#demo-videos)
-- [Future Enhancements](#future-enhancements)
+- [Autonomous Obstacle-Avoiding Robotic Car](#autonomous-obstacle-avoiding-robotic-car)
+    - [CSE 145 Spring 2025 | Fast Robotics Team](#cse-145-spring-2025--fast-robotics-team)
+  - [🚀 Quick Start](#-quick-start)
+  - [📋 Table of Contents](#-table-of-contents)
+  - [🎯 About The Project](#-about-the-project)
+    - [Abstract](#abstract)
+    - [Technical Specifications](#technical-specifications)
+  - [👥 Team Members](#-team-members)
+  - [🏗️ System Architecture](#️-system-architecture)
+  - [🔧 Hardware Requirements](#-hardware-requirements)
+    - [Essential Components](#essential-components)
+    - [Optional Components](#optional-components)
+  - [💻 Software Setup](#-software-setup)
+    - [Prerequisites](#prerequisites)
+    - [Installation Steps](#installation-steps)
+  - [📁 Repository Structure](#-repository-structure)
+  - [🎮 Usage Guide](#-usage-guide)
+    - [Basic Operation](#basic-operation)
+    - [Control Options](#control-options)
+    - [Monitoring](#monitoring)
+  - [🌐 Web Interface](#-web-interface)
+    - [Features](#features)
+    - [Technical Implementation](#technical-implementation)
+  - [📚 Documentation](#-documentation)
+    - [Project Documentation](#project-documentation)
+    - [ROS2 Package Documentation](#ros2-package-documentation)
+  - [🎥 Demo Videos](#-demo-videos)
+    - [Project Showcase](#project-showcase)
+    - [Development Progress](#development-progress)
+  - [🚀 Future Enhancements](#-future-enhancements)
+    - [Planned Features](#planned-features)
+    - [Research Opportunities](#research-opportunities)
+  - [🙏 Acknowledgments](#-acknowledgments)
+  - [📞 Contact](#-contact)
 
 ## 🎯 About The Project
 
@@ -80,12 +103,6 @@ This project presents an autonomous robotic car capable of real-time obstacle de
 
 ## 👥 Team Members
 
-| Name | Role | Contributions |
-|------|------|---------------|
-| **Eugenie** | Project Lead & AI Integration | Machine learning integration, system architecture, technical documentation |
-| **Momina** | Embedded Systems Engineer | Hardware integration, sensor calibration, ROS2 node development |
-| **Emma** | Robotics Software Developer | Navigation algorithms, obstacle avoidance logic, robot control systems |
-| **Sam** | Web Developer & DevOps | Web interface, Flask server, repository management, CI/CD |
 
 ## 🏗️ System Architecture
 
@@ -326,10 +343,6 @@ Access the interface at: `http://<robot-ip>:8004`
 - Reinforcement learning for navigation
 - Real-time mapping optimization
 - Human-robot interaction interfaces
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
