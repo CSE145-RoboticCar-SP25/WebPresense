@@ -291,8 +291,8 @@ Access the interface at: `http://<robot-ip>:8004`
 - **Qualcomm** - RB5 development board documentation
 - **ROS2 Community** - Framework and package ecosystem
 - **AprilTag Library** - Computer vision detection system
-
----
+- **Thank you, Rohan Patil - Computer Science PhD Student at UC San Diego,** for your continuous support, guidance, and helpful advice throughout our project.
+- **Thank you, Julian Raheems - Computer Science and Engineering PhD Candidate at UC San Diego,** for your time, effort, and valuable insights that helped us stay on track and successfully complete this project.
 
 <div align="center">
   <p><strong>Built with ❤️ by Fast Robotics Team</strong></p>
